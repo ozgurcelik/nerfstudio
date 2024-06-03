@@ -397,10 +397,10 @@ class Nerfstudio(DataParser):
                     )
                 ply_file_path = None
 
-            if ply_file_path:
-                sparse_points = self._load_3D_points(ply_file_path, transform_matrix, scale_factor)
-                if sparse_points is not None:
-                    metadata.update(sparse_points)
+            # if ply_file_path:
+            #     sparse_points = self._load_3D_points(ply_file_path, transform_matrix, scale_factor)
+            #     if sparse_points is not None:
+            #         metadata.update(sparse_points)
             self.prompted_user = True
 
         dataparser_outputs = DataparserOutputs(

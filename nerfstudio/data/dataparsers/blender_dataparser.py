@@ -21,7 +21,7 @@ from typing import Optional, Type
 
 import imageio
 import numpy as np
-import open3d as o3d
+#import open3d as o3d
 import torch
 
 from nerfstudio.cameras.cameras import Cameras, CameraType
