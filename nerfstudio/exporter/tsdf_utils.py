@@ -24,7 +24,7 @@ from pathlib import Path
 from typing import List, Optional, Tuple, Union
 
 import numpy as np
-import pymeshlab
+#import pymeshlab
 import torch
 import torch.nn.functional as F
 from jaxtyping import Bool, Float
