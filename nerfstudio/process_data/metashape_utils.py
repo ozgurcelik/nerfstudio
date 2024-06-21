@@ -20,7 +20,7 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 import numpy as np
-import open3d as o3d
+#import open3d as o3d
 
 from nerfstudio.process_data.process_data_utils import CAMERA_MODELS
 from nerfstudio.utils.rich_utils import CONSOLE
